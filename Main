@@ -1,0 +1,175 @@
+import random
+
+#Class pathways
+Warrior_Pathways = [
+
+    #Warrior pathway the outcast gladiator
+
+    '''
+    \nYou do not remember your family, only the grime-covered cells of the Pits, a brutal colosseum in the desert city of Kael. 
+    You were raised with a blade in your hand and a shield on your arm, your life a series of bloody, glorious victories and agonizing defeats. 
+    The crowds chanted your name, but outside the ring, you were just another slave. 
+    One night, a riot erupts in the prison barracks, giving you a chance for freedom. 
+    You escape, covered in dust and blood, a stolen, chipped sword your only possession. 
+    The city guards are on your trail, and you now face a world more vast and unpredictable than the fighting pits you once called home.
+
+    Your quest begins: You are a seasoned warrior, but one with no true place in the world. 
+    Your first goal is not glory, but survival. 
+    You must find a way to disappear from the city, avoiding the vigilant guard patrols and the even more dangerous bounty hunters who seek the prestige of capturing an escaped gladiator.
+    ''', 
+
+    #Warrior pathway the oath bound knight
+
+    '''\n
+    You were once a squire in service to the noble Order of the Gilded Lance, sworn to protect the realm's sacred relics and its people. 
+    Your days were filled with rigorous training, prayer, and selfless deeds. 
+    On a routine patrol, your company was ambushed by a shadowy cult known as the 'Veiled Hand.' 
+    The battle was a bloodbath, and you alone survived, left for dead amongst your fallen comrades. 
+    The cultists stole the relic your company was tasked to protect: the Heart of the Dragon, a crystalline shard of immense power. 
+    The Order believes you died in the ambush, and to return would be to admit your failure. 
+    The weight of your broken oath is a heavier burden than any armor. 
+
+    Your quest begins: Filled with a mix of grief, rage, and shame, you embark on a lone mission of vengeance and redemption. 
+    Your journey is to reclaim the stolen relic and destroy the Veiled Hand, earning back your honor and proving that a knight's oath is never truly broken.
+    ''',
+
+    #Warrior pathway the clans warrior exile
+
+    '''\n
+    In the icy mountains of the North, your life was defined by the strength of your clan. 
+    You learned to hunt, fight, and survive in the harsh wilderness, a shield-maiden (or shield-thane) respected for your ferocity in battle. 
+    However, a bitter feud erupted over who would lead the clan, and you were wrongfully accused of betraying your Jarl. 
+    Faced with execution, you were given a choice: face the blade or walk the path of exile, never to return. 
+    You chose exile, leaving behind everything you held dear and casting your ancestral weapon into the frigid sea as a symbol of your broken ties. 
+    Now, adrift in the civilized lands to the south, you are an outsider, a wild spirit lost in a world of bustling markets and soft-handed people.
+
+    Your quest begins: The cold has given way to warmer air, and the roar of battle has been replaced by the chatter of strangers. 
+    With no home to return to and your honor stained, you must find a new purpose. 
+    Your first step is to acquire a new weapon and find a place in this new world, all while keeping the memory of your unjust exile close at hand. 
+    The warrior's path is all you know, but you must forge it anew.'''
+]
+
+Random_Warrior_Pathway = random.choice(Warrior_Pathways)
+
+Mage_Pathways = [
+
+    # Mage pathway the scholarly outcast
+
+    '''
+    \nYou are a disgraced former student of the prestigious Silverwood Academy, banished for a forbidden magical experiment that went wrong. 
+    Your knowledge of arcane arts is vast, but your power is unrefined, raw, and deemed too dangerous by the academy's conservative elders. 
+    You now live on the fringes of society, hoarding your rare tomes in a dusty, forgotten tower, struggling to control the wild magic within you.
+
+    Your quest begins: A traveling merchant brings you a curious artifact—a small, intricate rune that pulsates with dangerous, chaotic energy. 
+    He found it near the ancient ruins where your academy experiment was performed. 
+    The merchant offers to trade a rare spellbook for your help, but he doesn't realize the object is a fragment of your failed experiment and is threatening to destabilize the entire region.
+    ''',
+
+    #Mage pathway the gifted scion
+
+    '''
+    \nYou are the youngest member of a powerful family of elemental mages, celebrated for their ancient, controlled form of spellcasting. 
+    Unlike your kin, you lack the patience for their rigid traditions, and your magic manifests in unusual, unpredictable ways—a sign that you may have inherited an uncontrolled, volatile lineage. 
+    To prove your worth and curb your chaotic magic, you have been sent on a coming-of-age journey to find the legendary "Eye of the Storm," a magical conduit that supposedly stabilizes untamed power.
+
+    Your quest begins: The journey begins at the base of the Whisperwind Peaks, where your family believes the Eye of the Storm is located. 
+    A series of unseasonal, violent magical storms has been ravaging the valleys below, and the local village elder believes an errant elemental is to blame. 
+    He asks for your help, recognizing your elemental lineage.
+    ''',
+
+    #Mage pathway the reluctant ritualist
+
+    '''
+    \nMagic, in your life, was not a choice but a burden. 
+    As the chosen Ritualist of your small, isolated community, your purpose is to perform a series of complex rituals that maintain the magical barrier protecting your village from the surrounding, hostile wilderness. 
+    You perform the rites by rote, having memorized every step and gesture, but you've never truly understood the magic itself. 
+    You feel like a cog in a machine, with no real power of your own
+
+    Your quest begins: One morning, you awake to an unsettling silence. 
+    The constant low hum of the magical barrier is gone. 
+    As you investigate, the village elder reveals the terrible truth: a key component of the ritual, the "Heartstone," has been stolen. 
+    Now, the barrier is fading, and strange, mutated creatures from the wilderness are beginning to creep into the village outskirts.
+    '''
+]
+
+Random_Mage_Pathway = random.choice(Mage_Pathways)
+
+Ranger_Pathways = [
+    
+    #Ranger pathway the outcast warden
+    
+    '''
+    \nYour life began as a member of the elite Forest Wardens, a guild of rangers sworn to protect the Whispering Woods. 
+    But a tragic mishap during a routine patrol—the accidental discovery of a ritual site you were ill-equipped to handle—led to your exile. 
+    The guildmaster believes you acted recklessly and shamed your order, and your former comrades view you with suspicion. 
+    Your deep knowledge of the woods and its creatures is your only remaining strength. You now wander the wilderness alone, trying to atone for a mistake you feel you could not have prevented.
+    
+    Your quest begins: You are resting by a small, hidden stream when you discover a series of unusual tracks—not animal, but human, and carelessly left. 
+    You also find several snares, a sign of illegal poaching. 
+    The snares have been set clumsily, indicating an amateur, but they are still a threat to the rare silver-tailed foxes of the region.
+    ''',
+    
+    #Ranger pathway the wilderness diplomat
+    
+    '''
+    \nYou were raised in a remote, isolated human settlement far from the nearest city. 
+    Your people have always been on tense but functional terms with the nearby Glimmerwood elves. 
+    You were chosen as your village’s emissary due to your unparalleled ability to navigate the dangerous borderlands and your natural affinity for respecting—and communicating with—the wild. 
+    Your family's legacy is built on a tenuous peace, a peace you are desperate to maintain.
+    
+    Your quest begins: An elven envoy was meant to arrive in your village for a seasonal treaty renewal, but they are late. 
+    A concerned elder sends you to investigate. You follow the known path and find signs of a struggle near an old, forgotten ruin. 
+    The tracks suggest the envoy was not attacked by beasts, but by something more cunning and organized.
+    ''',
+    
+    #Ranger pathway the urban huntsman
+    
+    '''
+    \nUnlike most rangers who hail from deep forests, you grew up in the underbelly of a bustling metropolis. 
+    You learned your trade not from tracking deer, but from tracking fugitives, criminals, and monstrous beasts that lurk in the city's sewers and forgotten tunnels. 
+    Your skills are a unique blend of urban survival, lockpicking, and stalking, adapted for concrete jungles and crowded alleyways. 
+    You are a ghost among the populace, using the city's many shadows to your advantage.
+    
+    Your quest begins: The city has been plagued by a series of disappearances, all concentrated in the tenement district where you grew up. 
+    The local guards are useless, blaming "runaways." 
+    However, your informants tell you of strange whispers in the night and a shadowy figure with glowing eyes. 
+    Your old mentor, a retired city watchman, sends you a coded message requesting your help.
+    '''
+]
+
+Random_Ranger_Pathway = random.choice(Ranger_Pathways)
+
+#Game decisions
+
+#Game classes
+Game_Classes = ['Warrior', 'Mage', 'Ranger']
+
+#Greeting
+print("Hello Adventurer!\n")
+
+#Take player name and check against min length
+while True:
+    Player_Name = input('What is your name? \n\n').capitalize()
+    if len(Player_Name) > 3:
+        break
+    else:
+        print('Your name must be at least four characters long\n\n')
+        
+#take user input for their class
+while True:
+    Player_Class = input(Player_Name + ' what class will you choose?\n\n' + ','.join(Game_Classes) + '\n').capitalize()
+    if Player_Class in Game_Classes:
+        break
+    else:
+        print('That is not a class. Please choose one of the three classes\n')
+
+
+#start of story
+if 'Warrior' in Player_Class:
+    print(Random_Warrior_Pathway)
+if 'Mage' in Player_Class:
+    print(Random_Mage_Pathway)
+if 'Ranger' in Player_Class:
+    print(Random_Ranger_Pathway)
+
+#First decision about situation
