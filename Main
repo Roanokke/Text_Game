@@ -179,10 +179,14 @@ while True:
     Player_Decision = input('What path do you choose?\n\n' + ', '.join(Class_Decisions) + '\n\n').capitalize()
     if 'Run' in Player_Decision:
         break
-    if 'Fight' in Player_Decision:
+    elif 'Fight' in Player_Decision:
         break
-    if 'Hide' in Player_Decision:
+    elif 'Hide' in Player_Decision:
         break
+    else:
+        print('\n' + 'that is not a choice\n')
+        
+
     else:
         print('that is not a choice\n')
         
