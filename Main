@@ -6,7 +6,7 @@ Warrior_Pathways = [
 #Warrior pathway the outcast gladiator
 
 '''
-\nYou do not remember your family, only the grime-covered cells of the Pits, a brutal colosseum in the desert city of Kael. 
+You do not remember your family, only the grime-covered cells of the Pits, a brutal colosseum in the desert city of Kael. 
 You were raised with a blade in your hand and a shield on your arm, your life a series of bloody, glorious victories and agonizing defeats. 
 The crowds chanted your name, but outside the ring, you were just another slave. 
 One night, a riot erupts in the prison barracks, giving you a chance for freedom. 
@@ -21,7 +21,7 @@ You must find a way to disappear from the city, avoiding the vigilant guard patr
 #Warrior pathway the oath bound knight
 
 '''
-\nYou were once a squire in service to the noble Order of the Gilded Lance, sworn to protect the realm's sacred relics and its people. 
+You were once a squire in service to the noble Order of the Gilded Lance, sworn to protect the realm's sacred relics and its people. 
 Your days were filled with rigorous training, prayer, and selfless deeds. 
 On a routine patrol, your company was ambushed by a shadowy cult known as the 'Veiled Hand.' 
 The battle was a bloodbath, and you alone survived, left for dead amongst your fallen comrades. 
@@ -35,7 +35,7 @@ Your journey is to reclaim the stolen relic and destroy the Veiled Hand, earning
 
 #Warrior pathway the clans warrior exile
 
-'''\n
+'''
 In the icy mountains of the North, your life was defined by the strength of your clan. 
 You learned to hunt, fight, and survive in the harsh wilderness, a shield-maiden (or shield-thane) respected for your ferocity in battle. 
 However, a bitter feud erupted over who would lead the clan, and you were wrongfully accused of betraying your Jarl. 
@@ -57,7 +57,7 @@ Mage_Pathways = [
 # Mage pathway the scholarly outcast
 
 '''
-\nYou are a disgraced former student of the prestigious Silverwood Academy, banished for a forbidden magical experiment that went wrong. 
+You are a disgraced former student of the prestigious Silverwood Academy, banished for a forbidden magical experiment that went wrong. 
 Your knowledge of arcane arts is vast, but your power is unrefined, raw, and deemed too dangerous by the academy's conservative elders. 
 You now live on the fringes of society, hoarding your rare tomes in a dusty, forgotten tower, struggling to control the wild magic within you.
 
@@ -69,7 +69,7 @@ The merchant offers to trade a rare spellbook for your help, but he doesn't real
 #Mage pathway the gifted scion
 
 '''
-\nYou are the youngest member of a powerful family of elemental mages, celebrated for their ancient, controlled form of spellcasting. 
+You are the youngest member of a powerful family of elemental mages, celebrated for their ancient, controlled form of spellcasting. 
 Unlike your kin, you lack the patience for their rigid traditions, and your magic manifests in unusual, unpredictable ways—a sign that you may have inherited an uncontrolled, volatile lineage. 
 To prove your worth and curb your chaotic magic, you have been sent on a coming-of-age journey to find the legendary "Eye of the Storm," a magical conduit that supposedly stabilizes untamed power.
 
@@ -81,7 +81,7 @@ He asks for your help, recognizing your elemental lineage.
 #Mage pathway the reluctant ritualist
 
 '''
-\nMagic, in your life, was not a choice but a burden. 
+Magic, in your life, was not a choice but a burden. 
 As the chosen Ritualist of your small, isolated community, your purpose is to perform a series of complex rituals that maintain the magical barrier protecting your village from the surrounding, hostile wilderness. 
 You perform the rites by rote, having memorized every step and gesture, but you've never truly understood the magic itself. 
 You feel like a cog in a machine, with no real power of your own
@@ -100,7 +100,7 @@ Ranger_Pathways = [
 #Ranger pathway the outcast warden
 
 '''
-\nYour life began as a member of the elite Forest Wardens, a guild of rangers sworn to protect the Whispering Woods. 
+Your life began as a member of the elite Forest Wardens, a guild of rangers sworn to protect the Whispering Woods. 
 But a tragic mishap during a routine patrol—the accidental discovery of a ritual site you were ill-equipped to handle—led to your exile. 
 The guildmaster believes you acted recklessly and shamed your order, and your former comrades view you with suspicion. 
 Your deep knowledge of the woods and its creatures is your only remaining strength. You now wander the wilderness alone, trying to atone for a mistake you feel you could not have prevented.
@@ -113,9 +113,9 @@ The snares have been set clumsily, indicating an amateur, but they are still a t
 #Ranger pathway the wilderness diplomat
     
 '''
-\nYou were raised in a remote, isolated human settlement far from the nearest city. 
+You were raised in a remote, isolated human settlement far from the nearest city. 
 Your people have always been on tense but functional terms with the nearby Glimmerwood elves. 
-You were chosen as your village’s emissary due to your unparalleled ability to navigate the dangerous borderlands and your natural affinity for respecting—and communicating with—the wild. 
+You were chosen as your village's emissary due to your unparalleled ability to navigate the dangerous borderlands and your natural affinity for respecting—and communicating with—the wild. 
 Your family's legacy is built on a tenuous peace, a peace you are desperate to maintain.
     
 Your quest begins: An elven envoy was meant to arrive in your village for a seasonal treaty renewal, but they are late. 
@@ -126,7 +126,7 @@ The tracks suggest the envoy was not attacked by beasts, but by something more c
 #Ranger pathway the urban huntsman
     
 '''
-\nUnlike most rangers who hail from deep forests, you grew up in the underbelly of a bustling metropolis. 
+Unlike most rangers who hail from deep forests, you grew up in the underbelly of a bustling metropolis. 
 You learned your trade not from tracking deer, but from tracking fugitives, criminals, and monstrous beasts that lurk in the city's sewers and forgotten tunnels. 
 Your skills are a unique blend of urban survival, lockpicking, and stalking, adapted for concrete jungles and crowded alleyways. 
 You are a ghost among the populace, using the city's many shadows to your advantage.
@@ -159,7 +159,7 @@ while True:
         
 #take user input for their class
 while True:
-    Player_Class = input(Player_Name + ' what class will you choose?\n\n' + ','.join(Game_Classes) + '\n').capitalize()
+    Player_Class = input('\n' + Player_Name + ' what class will you choose?\n\n' + ', '.join(Game_Classes) + '\n\n').capitalize()
     if Player_Class in Game_Classes:
         break
     else:
@@ -169,15 +169,20 @@ while True:
 #start of story
 if 'Warrior' in Player_Class:
     print(Random_Warrior_Pathway)
-if 'Mage' in Player_Class:
+elif 'Mage' in Player_Class:
     print(Random_Mage_Pathway)
-if 'Ranger' in Player_Class:
+elif 'Ranger' in Player_Class:
     print(Random_Ranger_Pathway)
 
 #First decision
 while True:
-    Player_Decision = input('What path do you choose?\n\n' + ', '.join(Class_Decision) + '\n')
+    Player_Decision = input('What path do you choose?\n\n' + ', '.join(Class_Decisions) + '\n\n').capitalize()
+    if 'Run' in Player_Decision:
+        break
+    if 'Fight' in Player_Decision:
+        break
     if 'Hide' in Player_Decision:
         break
     else:
-        print('')
+        print('that is not a choice\n')
+        
