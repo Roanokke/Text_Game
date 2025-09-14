@@ -1,19 +1,21 @@
-TTT
-AVA
-vine
+TTT | TheTripleTriads | XIII
+AVA | Avaliance | Takeda
+vine | ChildrenOfIroh | TophBeifong
 Twin(shell)
-TRI
-TFK
+TRI | Triumph | Sea of Fire
+TFK | TheFourKingdoms | Higz
 QRG
-GOOD
-ASA
-NSN
-N4U
-KSMT
-FFER
-KORA
-RED
-POOF
-BUMI
-OSJ
-TIFR
+GOOD | Luck Gaymers | WookieCookie
+ASA | AsamiGang | drakevor
+NSN | Nachtschatten | BlueHades
+N4U | Nation 4 Unity | ULYSSE
+KSMT | Kismet | SenseiDaan2
+FFER | Freedon Fighter | Dorje
+KORA | Kora | HTTYDALT
+RED | Red Lotus | Juggernaut
+POOF | Goos Old P00f | WastedTalent
+BUMI | 
+OSJ | The Silver Jade | JedoS
+TIFR | The earth fr | M Princhek 
+Gay | Gaymers | Alcina
+Skul | Skull | ||||8||||
