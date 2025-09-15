@@ -4,7 +4,7 @@ vine | ChildrenOfIroh | TophBeifong
 Twin(shell)
 TRI | Triumph | Sea of Fire
 TFK | TheFourKingdoms | Higz
-QRG
+ARG | Latam | Aloy
 GOOD | Luck Gaymers | WookieCookie
 ASA | AsamiGang | drakevor
 NSN | Nachtschatten | BlueHades
